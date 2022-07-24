@@ -1,0 +1,14 @@
+2)
+b = "23/11/2022"
+
+first_sep, last_sep = b.find("/"), b.rfind("/")
+day = b[:first_sep]
+month = b[first_sep+1:last_sep]
+year = b[last_sep+1:]
+
+print("Day: ", day)
+print("Month: ", month)
+print("Year: ", year)
+
+output:
+23/11/2022
